@@ -1,3 +1,4 @@
+// Package window provides an io.Writer which retains a fixed window of written data.
 package window
 
 // A Writer is an io.Writer which retains only the last N bytes that were written.
